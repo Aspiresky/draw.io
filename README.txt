@@ -1,0 +1,1 @@
+Keep draw.io resources.
