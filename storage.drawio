@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T09:04:43.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="QzWCtElPHZgulPcQ9bTY" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T09:19:35.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Lm3ZdnrLNhCVCAUuBUsK" version="23.0.2" type="github" pages="2">
   <diagram name="存储接口与协议" id="uZkTL7jz6rvbqRPXWUwu">
     <mxGraphModel dx="1793" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,6 +98,32 @@
         </mxCell>
         <mxCell id="kW5mb3rAxhpluEmAKAq6-61" value="SATA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="491" y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HmqUxQjndPC00oW9YLXk" name="IO栈">
+    <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hMd834XMyHO7lpW1yMHG-1" value="系统调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMd834XMyHO7lpW1yMHG-2" value="通用块层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hMd834XMyHO7lpW1yMHG-3" value="IO调度层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hMd834XMyHO7lpW1yMHG-4" value="块设备驱动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hMd834XMyHO7lpW1yMHG-5" value="块设备文件系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hMd834XMyHO7lpW1yMHG-6" value="页高速缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
