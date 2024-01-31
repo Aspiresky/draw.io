@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T10:02:16.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_BfPcORhJfkwB6gjmlMH" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T10:04:46.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="jSdpiDLis4SR4F-hTzVA" version="23.0.2" type="github">
   <diagram name="第 1 页" id="grWxHXJj6rzBnJHJz1EA">
     <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,13 +7,13 @@
         <mxCell id="sgwTthBFtp9VdbaSLWl7-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="220" y="100" width="480" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="sgwTthBFtp9VdbaSLWl7-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgwTthBFtp9VdbaSLWl7-65" target="sgwTthBFtp9VdbaSLWl7-66">
+        <mxCell id="sgwTthBFtp9VdbaSLWl7-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=1.5;endSize=3;" edge="1" parent="1" source="sgwTthBFtp9VdbaSLWl7-65" target="sgwTthBFtp9VdbaSLWl7-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgwTthBFtp9VdbaSLWl7-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sgwTthBFtp9VdbaSLWl7-65" target="sgwTthBFtp9VdbaSLWl7-67">
+        <mxCell id="sgwTthBFtp9VdbaSLWl7-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=1.5;endSize=3;" edge="1" parent="1" source="sgwTthBFtp9VdbaSLWl7-65" target="sgwTthBFtp9VdbaSLWl7-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgwTthBFtp9VdbaSLWl7-65" value="被中断的任务&amp;nbsp;" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.07407407407407407;" vertex="1" parent="1">
+        <mxCell id="sgwTthBFtp9VdbaSLWl7-65" value="被中断的任务&amp;nbsp;" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.07407407407407407;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="60" height="270" as="geometry" />
         </mxCell>
         <mxCell id="sgwTthBFtp9VdbaSLWl7-66" value="硬件保存上下文" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
