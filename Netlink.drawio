@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T09:21:58.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="jNvt89NCc4n55lxnyDta" version="23.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-02T02:42:53.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="JbysFxITFq50wdkpEGA_" version="23.0.2" type="github" pages="5">
   <diagram id="Dv2XCkLM0n3U-tPDD0g2" name="socket数据结构">
-    <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,21 +18,6 @@
         </mxCell>
         <mxCell id="skx1DSv5x13iJOaryFiS-7" value="void (*netlink_bind)(struct net *net, int group);" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="640" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="skx1DSv5x13iJOaryFiS-8" value="genl_family" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry y="780" width="280" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="skx1DSv5x13iJOaryFiS-9" value="struct nla_policy *policy;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="810" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="skx1DSv5x13iJOaryFiS-10" value="int (*pre_doit)(const struct genl_ops *ops, ...);" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="840" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="skx1DSv5x13iJOaryFiS-11" value="void (*post_doit)(const struct genl_ops *ops, ...);" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="870" width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="skx1DSv5x13iJOaryFiS-12" value="const struct genl_ops *ops;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="900" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MjDt5u6-VfzeoTonlauP-1" value="socket" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry y="30" width="200" height="170" as="geometry" />
@@ -55,10 +40,10 @@
         <mxCell id="MjDt5u6-VfzeoTonlauP-6" value="sock" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="280" y="10" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="MjDt5u6-VfzeoTonlauP-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MjDt5u6-VfzeoTonlauP-7" target="MjDt5u6-VfzeoTonlauP-15">
+        <mxCell id="MjDt5u6-VfzeoTonlauP-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MjDt5u6-VfzeoTonlauP-7" target="MjDt5u6-VfzeoTonlauP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MjDt5u6-VfzeoTonlauP-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MjDt5u6-VfzeoTonlauP-7" target="MjDt5u6-VfzeoTonlauP-15">
+        <mxCell id="MjDt5u6-VfzeoTonlauP-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MjDt5u6-VfzeoTonlauP-7" target="MjDt5u6-VfzeoTonlauP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MjDt5u6-VfzeoTonlauP-7" value="struct sock_common&#x9;__sk_common;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -95,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="netlink流程" id="NRTod-WnPiQtok8oVAn6">
-    <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,10 +202,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-65" value="netlink_kernel_create" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry y="1160" width="170" height="40" as="geometry" />
+          <mxGeometry y="1190" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-66" value="sock_create_lite" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1281" width="181" height="40" as="geometry" />
+          <mxGeometry x="180" y="1311" width="181" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Ib3JcZsXIy6NJV1Kl0cX-67" target="Ib3JcZsXIy6NJV1Kl0cX-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -229,22 +214,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-67" value="__netlink_kernel_create" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="89" y="1221" width="181" height="40" as="geometry" />
+          <mxGeometry x="89" y="1251" width="181" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-68" value="__netlink_create" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="181" y="1341" width="181" height="40" as="geometry" />
+          <mxGeometry x="181" y="1371" width="181" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ib3JcZsXIy6NJV1Kl0cX-69" value="netlink_insert" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="181" y="1401" width="181" height="40" as="geometry" />
+          <mxGeometry x="181" y="1431" width="181" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SlO_kWDzNsXxOch_r_r2-1" value="调用指定netlink family的回调，对于通用Netlink，回调设置为genl_rcv" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="410" y="290" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="GqmG6Ixbhzd9NIlqTop--1" target="GqmG6Ixbhzd9NIlqTop--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="GqmG6Ixbhzd9NIlqTop--1" target="GqmG6Ixbhzd9NIlqTop--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="GqmG6Ixbhzd9NIlqTop--1" target="GqmG6Ixbhzd9NIlqTop--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="GqmG6Ixbhzd9NIlqTop--1" target="GqmG6Ixbhzd9NIlqTop--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--1" value="struct proto_ops netlink_ops;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry y="1590" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--2" value="netlink_bind" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1650" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--4" value="netlink_ioctl" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1700" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--6" value="netlink_sendmsg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1750" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GqmG6Ixbhzd9NIlqTop--7" value="netlink_recvmsg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="101" y="1800" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DdyA9llze3bjj07B-E6t-1" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DdyA9llze3bjj07B-E6t-2" value="内核态创建netlink套接字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172" y="1195" width="138" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="6VbpamHwU8PS1FdqcKMq" name="genl">
-    <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -301,7 +319,7 @@
         <mxCell id="wMyulQuZVhnKiLXZjRYa-16" value="family-&amp;gt;post_doit()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="750" y="360" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wMyulQuZVhnKiLXZjRYa-17" value="ops_doit()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+        <mxCell id="wMyulQuZVhnKiLXZjRYa-17" value="ops-&amp;gt;doit()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="750" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wMyulQuZVhnKiLXZjRYa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="YQaMq-5wOdoevBD-ZZs0-1" target="wMyulQuZVhnKiLXZjRYa-19" edge="1">
@@ -312,14 +330,72 @@
         <mxCell id="wMyulQuZVhnKiLXZjRYa-19" value="idr_alloc_cyclic" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="90" y="550" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="K7YoEPm3ri5t0jLox1p7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="YQaMq-5wOdoevBD-ZZs0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YQaMq-5wOdoevBD-ZZs0-1" value="genl_register_family" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="10" y="490" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="ipoyJmyxSTbNQjplCaAw" name="genl数据结构">
+    <mxGraphModel dx="899" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-1" value="genl_family" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="130" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-2" value="struct nla_policy *policy;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-3" value="int (*pre_doit)(const struct genl_ops *ops, ...);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-4" value="void (*post_doit)(const struct genl_ops *ops, ...);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="eegGt3ittQ5YjmHQ6QAZ-5" target="eegGt3ittQ5YjmHQ6QAZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-5" value="const struct genl_ops *ops;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-6" value="char name[GENL_NAMSIZ]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-7" value="genl_ops" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-10" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-8" value="int (*start)(struct netlink_callback *cb);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-9" value="int (*dumpit)(strucct sk_buff *skb, struct netlink_callback *cb);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-10" value="int (*done)(struct netlink_callback *cb);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-11" value="const struct nla_policy *policy;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-12" value="int (*doit)(struct&amp;nbsp; sk_buff *skb, struct genl_info *info);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-13" value="unsigned int maxattr;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eegGt3ittQ5YjmHQ6QAZ-14" value="u8 cmd;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="210" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="6991q9r-QMTWksZlJM-4" name="第 4 页">
-    <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
