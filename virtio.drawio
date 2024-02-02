@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T09:34:23.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="41rJzbmv-u4x8gz2svjH" version="23.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-02T09:35:52.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="s6raBFXyI97o8GRIk9-D" version="23.0.2" type="github" pages="2">
   <diagram name="packed virtqueue" id="gmrUPWHDLizG3uCclF8c">
     <mxGraphModel dx="966" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -309,13 +309,13 @@
         <mxCell id="LVnoNBGwakdIlv3bQzS6-1" value="前端驱动" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LVnoNBGwakdIlv3bQzS6-1">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="LVnoNBGwakdIlv3bQzS6-1">
           <mxGeometry x="45" y="79" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-2" value="virtio设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="LVnoNBGwakdIlv3bQzS6-2">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="LVnoNBGwakdIlv3bQzS6-2">
           <mxGeometry x="44" y="374" width="10" height="45" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-4" value="device_status=0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LVnoNBGwakdIlv3bQzS6-3">
@@ -327,7 +327,7 @@
         <mxCell id="LVnoNBGwakdIlv3bQzS6-5" value="Reset device" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="95" y="98" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="85" y="210" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-7" value="device_status |= ACKNOWNLEDGE" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LVnoNBGwakdIlv3bQzS6-6">
@@ -338,9 +338,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-8" value="Acknowledge device" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="95" y="189" width="135" height="30" as="geometry" />
+          <mxGeometry x="95" y="189" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="85" y="299" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-11" value="device_status |= DRIVER" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LVnoNBGwakdIlv3bQzS6-10">
@@ -353,7 +353,7 @@
         <mxCell id="LVnoNBGwakdIlv3bQzS6-12" value="Notice device" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="95" y="279" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="85" y="390" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-14" value="device_status |= FEATURES_OK" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
@@ -366,7 +366,7 @@
         <mxCell id="LVnoNBGwakdIlv3bQzS6-15" value="Feature negotiated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="95" y="369" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LVnoNBGwakdIlv3bQzS6-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="LVnoNBGwakdIlv3bQzS6-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="85" y="549" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-17" value="device_status |= DRIVER_OK" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="LVnoNBGwakdIlv3bQzS6-16">
@@ -377,7 +377,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-18" value="Driver OK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="95" y="528" width="80" height="30" as="geometry" />
+          <mxGeometry x="95" y="528" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LVnoNBGwakdIlv3bQzS6-20" value="Read device_feature" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="LVnoNBGwakdIlv3bQzS6-19" parent="1">
           <mxGeometry relative="1" as="geometry">
