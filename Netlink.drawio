@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-03T04:31:43.974Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="cC9Hrf61xMr8CYNw6KA7" version="23.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-03T04:37:06.837Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="DCC6znZYa4zDndBF4Gk4" version="23.1.1" type="github" pages="5">
   <diagram id="Dv2XCkLM0n3U-tPDD0g2" name="socket数据结构">
     <mxGraphModel dx="1628" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,13 +270,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wMyulQuZVhnKiLXZjRYa-2" value="genl_rcv" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry width="140" height="40" as="geometry" />
+          <mxGeometry x="80" y="120" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wMyulQuZVhnKiLXZjRYa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" parent="1" source="wMyulQuZVhnKiLXZjRYa-4" target="wMyulQuZVhnKiLXZjRYa-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wMyulQuZVhnKiLXZjRYa-4" value="netlink_rcv_skb(skb, &amp;amp;genl_rcv_msg)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="80" y="60" width="270" height="40" as="geometry" />
+          <mxGeometry x="160" y="180" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wMyulQuZVhnKiLXZjRYa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="wMyulQuZVhnKiLXZjRYa-6" target="wMyulQuZVhnKiLXZjRYa-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -653,38 +653,38 @@
         <mxCell id="15dknB1E21RfJTnn03CV-7" value="sock_alloc" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="160" y="160" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="15dknB1E21RfJTnn03CV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15dknB1E21RfJTnn03CV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-14" edge="1">
+        <mxCell id="15dknB1E21RfJTnn03CV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ihdjDVA2_ZKDcwqcexYw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="15dknB1E21RfJTnn03CV-8" target="15dknB1E21RfJTnn03CV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-8" value="pf-&amp;gt;create()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="160" y="220" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="15dknB1E21RfJTnn03CV-9" value="关联sockcet与文件描述符" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="15dknB1E21RfJTnn03CV-9" value="关联sockcet与文件描述符" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ff2600;" parent="1" vertex="1">
           <mxGeometry x="254" y="285" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="15dknB1E21RfJTnn03CV-12" value="创建指定地址族类型net_proto_family的套接字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="241" width="260" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-13" value="struct net_proto_family inet_family_ops" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="430" y="75" width="310" height="30" as="geometry" />
+          <mxGeometry x="540" y="160" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-14" value="struct net_proto_family packet_family_ops" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="430" y="155" width="310" height="30" as="geometry" />
+          <mxGeometry x="540" y="240" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-15" value="struct net_proto_family inet6_family_ops" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="430" y="115" width="310" height="30" as="geometry" />
+          <mxGeometry x="540" y="200" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="15dknB1E21RfJTnn03CV-16" value="struct net_proto_family netlink_family_ops" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="430" y="195" width="310" height="30" as="geometry" />
+          <mxGeometry x="540" y="280" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15dknB1E21RfJTnn03CV-12" value="创建指定地址族类型net_proto_family的套接字" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ff2600;" parent="1" vertex="1">
+          <mxGeometry x="330" y="210" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
