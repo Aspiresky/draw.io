@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T09:24:11.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="F4Elsaiew8oz9p_R5JoG" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-04T10:16:30.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="I-QordbZ5lf-yUq0Iyo8" version="23.0.2" type="github" pages="3">
   <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
-    <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,11 +350,56 @@
         <mxCell id="oCljHcSUUssmmwrVbaKL-109" value="rte_mempool_ops_dequeue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="319" y="2340" width="201" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-8" target="s2px5hwEUJyk-tAjRXDN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-8" target="s2px5hwEUJyk-tAjRXDN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-8" value="rte_mempool_put" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="2480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-10" target="s2px5hwEUJyk-tAjRXDN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-10" value="rte_mempool_put_bulk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="2600" width="172" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-12" target="s2px5hwEUJyk-tAjRXDN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-12" value="rte_mempool_generic_put" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="2660" width="171" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-13" target="s2px5hwEUJyk-tAjRXDN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;curved=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-13" target="s2px5hwEUJyk-tAjRXDN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-13" value="rte_mempool_do_generic_put" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="2720" width="171" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-14" value="rte_mempool_default_cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="2540" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-15" value="rte_mempool_ops_enqueue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="2920" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="s2px5hwEUJyk-tAjRXDN-16" target="s2px5hwEUJyk-tAjRXDN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-16" value="cache-&amp;gt;len &amp;gt;= &lt;br&gt;cache-&amp;gt;flushthresh" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2840" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2px5hwEUJyk-tAjRXDN-19" value="将待释放的项放回到Per-lcore cache中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="2780" width="211" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="vhost" id="hyrU26rBqg8DrORT4Mcz">
-    <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
