@@ -1,17 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T07:07:34.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="ew_Rl0pcjotp2g5NnnFq" version="23.0.2" type="github" pages="2">
-  <diagram name="vhost" id="hyrU26rBqg8DrORT4Mcz">
-    <mxGraphModel dx="744" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-02-04T08:11:53.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="YlFJi_mNgpd4FFmNZusK" version="23.0.2" type="github" pages="3">
+  <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
+    <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RU3uc__ESTjbFmCe7IqD-1" value="rte_vhost_driver_register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="xt5hg7vrcM1Tqit_epQZ-1" target="xt5hg7vrcM1Tqit_epQZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-1" value="rte_memzone_reserve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="xt5hg7vrcM1Tqit_epQZ-2" target="xt5hg7vrcM1Tqit_epQZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-2" value="rte_memzone_reserve_thread_safe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="xt5hg7vrcM1Tqit_epQZ-3" target="xt5hg7vrcM1Tqit_epQZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-3" value="memzone_reserve_aligned_thread_unsafe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-4" value="malloc_heap_alloc_biggest/&lt;br&gt;malloc_heap_alloc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xt5hg7vrcM1Tqit_epQZ-10" value="从malloc_heap中分配需要的内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="225" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZaZc1ASJPES8uR-5LDhn" name="mempool">
-    <mxGraphModel dx="773" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +55,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-5" value="rte_mempool_create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="320" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="720" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j12mQk4M-rqlVj3Kd8F9-6" target="j12mQk4M-rqlVj3Kd8F9-12">
           <mxGeometry relative="1" as="geometry" />
@@ -42,23 +63,58 @@
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j12mQk4M-rqlVj3Kd8F9-6" target="j12mQk4M-rqlVj3Kd8F9-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j12mQk4M-rqlVj3Kd8F9-6" target="ckDO4D8yBl8Yn0LTRLac-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j12mQk4M-rqlVj3Kd8F9-6" target="ckDO4D8yBl8Yn0LTRLac-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-6" value="rte_mempool_create_empty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="380" width="180" height="40" as="geometry" />
+          <mxGeometry x="121" y="780" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-7" value="rte_mempool_populate_default" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="620" width="180" height="40" as="geometry" />
+          <mxGeometry x="120" y="1100" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-8" value="rte_mempool_obj_iter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="680" width="160" height="40" as="geometry" />
+          <mxGeometry x="120" y="1160" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-12" value="rte_mempool_calc_obj_size" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="180" height="40" as="geometry" />
+          <mxGeometry x="200" y="840" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-13" value="rte_memzone_reserve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="500" width="180" height="40" as="geometry" />
+          <mxGeometry x="200" y="960" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j12mQk4M-rqlVj3Kd8F9-16" value="调用用户传入的回调初始化每一项object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="690" width="220" height="30" as="geometry" />
+          <mxGeometry x="289" y="1170" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j12mQk4M-rqlVj3Kd8F9-17" value="rte_mempool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j12mQk4M-rqlVj3Kd8F9-18" value="local_cache[RTE_MAX_LCORE]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="120" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-1" value="rte_mempool_cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-2" value="objs[RTE_MEMPOOL_CACHE_MAX_SIZE * 3]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="280" width="279" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-3" value="计算mempool的大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="900" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ckDO4D8yBl8Yn0LTRLac-4" value="rte_memzone_reserve" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1020" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="vhost" id="hyrU26rBqg8DrORT4Mcz">
+    <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RU3uc__ESTjbFmCe7IqD-1" value="rte_vhost_driver_register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
