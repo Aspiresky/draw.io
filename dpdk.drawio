@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T09:19:46.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="3Anp96ovaa2XwiI8jLGp" version="23.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-04T09:23:06.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="P6THeLR9JE1MFmhb19K9" version="23.0.2" type="github" pages="3">
   <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
     <mxGraphModel dx="819" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZaZc1ASJPES8uR-5LDhn" name="mempool">
-    <mxGraphModel dx="1597" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1947" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,19 +258,22 @@
         <mxCell id="oCljHcSUUssmmwrVbaKL-61" value="rte_mempool_get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1920" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oCljHcSUUssmmwrVbaKL-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-62" target="oCljHcSUUssmmwrVbaKL-63">
+        <mxCell id="oCljHcSUUssmmwrVbaKL-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-62" target="oCljHcSUUssmmwrVbaKL-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-62" value="rte_mempool_get_bulk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="79" y="2040" width="180" height="40" as="geometry" />
+          <mxGeometry x="79" y="2040" width="181" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oCljHcSUUssmmwrVbaKL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-63" target="oCljHcSUUssmmwrVbaKL-64">
+        <mxCell id="oCljHcSUUssmmwrVbaKL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-63" target="oCljHcSUUssmmwrVbaKL-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-63" value="rte_mempool_generic_get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="2100" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oCljHcSUUssmmwrVbaKL-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-64" target="oCljHcSUUssmmwrVbaKL-70">
+        <mxCell id="oCljHcSUUssmmwrVbaKL-71" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-106" target="oCljHcSUUssmmwrVbaKL-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oCljHcSUUssmmwrVbaKL-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-64" target="oCljHcSUUssmmwrVbaKL-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-64" value="rte_mempool_do_generic_get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -279,59 +282,67 @@
         <mxCell id="oCljHcSUUssmmwrVbaKL-67" value="rte_mempool_default_cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1980" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oCljHcSUUssmmwrVbaKL-104" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-70" target="oCljHcSUUssmmwrVbaKL-88">
+        <mxCell id="oCljHcSUUssmmwrVbaKL-104" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-106" target="oCljHcSUUssmmwrVbaKL-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oCljHcSUUssmmwrVbaKL-108" value="优先从per-lcore &lt;br&gt;cache中分配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oCljHcSUUssmmwrVbaKL-104">
+          <mxGeometry x="-0.1994" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-70" value="rte_mempool_ops_dequeue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="319" y="2220" width="201" height="40" as="geometry" />
+          <mxGeometry x="414" y="2280" width="201" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-88" value="Per-lcore cache" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="610" y="2000" width="330" height="200" as="geometry" />
+          <mxGeometry x="560" y="1960" width="330" height="200" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-89" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="639" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="589" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-90" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="669" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="619" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-91" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="699" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="649" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-92" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="729" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="679" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-93" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="759" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="709" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-94" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="789" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="739" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-95" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="819" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="769" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-96" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="879" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="829" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-97" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="849" y="2080" width="30" height="30" as="geometry" />
+          <mxGeometry x="799" y="2040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oCljHcSUUssmmwrVbaKL-99" target="oCljHcSUUssmmwrVbaKL-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-99" value="cache-&amp;gt;len - 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="843" y="2028" width="100" height="30" as="geometry" />
+          <mxGeometry x="793" y="1988" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-100" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="839" y="2060" width="20" height="120" as="geometry" />
+          <mxGeometry x="789" y="2020" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-101" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="834" y="2123" width="30" height="30" as="geometry" />
+          <mxGeometry x="784" y="2083" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-102" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="764" y="2025" width="20" height="270" as="geometry" />
+          <mxGeometry x="714" y="1985" width="20" height="270" as="geometry" />
         </mxCell>
         <mxCell id="oCljHcSUUssmmwrVbaKL-103" value="cache-&amp;gt;len" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="734" y="2170" width="80" height="30" as="geometry" />
+          <mxGeometry x="684" y="2130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oCljHcSUUssmmwrVbaKL-106" value="cache-&amp;gt;len &amp;gt; n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="2220" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
