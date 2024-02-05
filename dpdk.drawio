@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T02:59:59.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="zpOndO62FEIb46e6DLzI" version="23.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-05T03:03:00.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="32wjrRNJ4QwohMaDNhzH" version="23.0.2" type="github" pages="4">
   <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
     <mxGraphModel dx="632" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -543,23 +543,26 @@
         <mxCell id="SftezfbpLL81MChwu9YT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SftezfbpLL81MChwu9YT-20" target="SftezfbpLL81MChwu9YT-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SftezfbpLL81MChwu9YT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SftezfbpLL81MChwu9YT-20" target="SftezfbpLL81MChwu9YT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-20" value="rte_pktmbuf_pool_create_extbuf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="760" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-21" value="rte_mempool_create_empty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="820" width="200" height="40" as="geometry" />
+          <mxGeometry x="130" y="880" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-22" value="rte_pktmbuf_pool_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="880" width="200" height="40" as="geometry" />
+          <mxGeometry x="130" y="940" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-23" value="rte_mempool_populate_default" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="940" width="200" height="40" as="geometry" />
+          <mxGeometry x="130" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-24" value="rte_mempool_obj_iter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="1000" width="200" height="40" as="geometry" />
+          <mxGeometry x="130" y="1060" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-25" value="调用__rte_pktmbuf_init_extmem对&lt;br&gt;rte_mbuf对象进行初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1000" width="210" height="40" as="geometry" />
+          <mxGeometry x="350" y="980" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-30" value="rte_mbuf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="840" width="80" height="40" as="geometry" />
@@ -581,6 +584,9 @@
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-35" value="rte_pktmbuf_pool_private" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="900" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SftezfbpLL81MChwu9YT-38" value="计算element的大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="818" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
