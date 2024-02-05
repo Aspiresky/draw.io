@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T03:05:54.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="IFymH2oUKdpPCilf-ypi" version="23.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-05T03:11:29.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="1z9lbaWphjKODCreuZce" version="23.0.2" type="github" pages="4">
   <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
     <mxGraphModel dx="632" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -585,7 +585,7 @@
         <mxCell id="SftezfbpLL81MChwu9YT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SftezfbpLL81MChwu9YT-35" target="SftezfbpLL81MChwu9YT-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SftezfbpLL81MChwu9YT-35" value="rte_pktmbuf_pool_private" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="SftezfbpLL81MChwu9YT-35" value="rte_mbuf_ext_shared_info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="900" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SftezfbpLL81MChwu9YT-38" value="计算element的大小" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
