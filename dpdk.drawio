@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T11:09:07.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="mHfq4b91_S1mLi76kLGl" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-05T11:10:56.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="0SRoGi5lMjZJQW29crX9" version="23.0.2" type="github" pages="6">
   <diagram id="zKuGH8lxLStfQoq1imGa" name="memseg">
     <mxGraphModel dx="784" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
         <mxCell id="V-VEu5DrMi-vdTCOigz6-34" value="Hugepage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="400" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-35" target="V-VEu5DrMi-vdTCOigz6-36">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-35" target="V-VEu5DrMi-vdTCOigz6-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V-VEu5DrMi-vdTCOigz6-35" value="rte_eal_memseg_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -96,7 +96,7 @@
         <mxCell id="V-VEu5DrMi-vdTCOigz6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-36" target="V-VEu5DrMi-vdTCOigz6-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-36" target="V-VEu5DrMi-vdTCOigz6-41">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-36" target="V-VEu5DrMi-vdTCOigz6-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V-VEu5DrMi-vdTCOigz6-36" value="RTE_PROC_PRIMARY" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
@@ -105,19 +105,19 @@
         <mxCell id="V-VEu5DrMi-vdTCOigz6-37" value="memseg_secondary_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="274" y="700" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-41" target="V-VEu5DrMi-vdTCOigz6-43">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-41" target="V-VEu5DrMi-vdTCOigz6-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V-VEu5DrMi-vdTCOigz6-41" value="memseg_primary_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="760" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-45">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-47">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V-VEu5DrMi-vdTCOigz6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-48">
+        <mxCell id="V-VEu5DrMi-vdTCOigz6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-VEu5DrMi-vdTCOigz6-43" target="V-VEu5DrMi-vdTCOigz6-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V-VEu5DrMi-vdTCOigz6-43" value="eal_dynmem_memseg_lists_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
