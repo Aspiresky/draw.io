@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T07:47:49.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="N-6bxscTEAUyahSe2NJp" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-06T07:49:43.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="CfxCX219vLCUSUoXHawB" version="23.1.1" type="github" pages="2">
   <diagram name="第 1 页" id="240bdJhtq2D6pQq34B5v">
     <mxGraphModel dx="1902" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,34 +225,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-41" value="heap_alloc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="326" y="1780" width="120" height="40" as="geometry" />
+          <mxGeometry x="327" y="1779" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-42" value="alloc_more_mem_on_socket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="326" y="1960" width="176" height="40" as="geometry" />
+          <mxGeometry x="327" y="1959" width="176" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="OCUKe9tTq92G45eqGp7R-45" target="OCUKe9tTq92G45eqGp7R-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-45" value="internal_conf-&amp;gt;legacy_mem" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1704" width="140" height="50" as="geometry" />
+          <mxGeometry x="320" y="1701" width="140" height="59" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-47" value="heap_alloc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1709" width="120" height="40" as="geometry" />
+          <mxGeometry x="500" y="1710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-49" value="find_suitable_element" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1840" width="130" height="40" as="geometry" />
+          <mxGeometry x="391" y="1839" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-50" value="malloc_elem_alloc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="523" y="1900" width="130" height="40" as="geometry" />
+          <mxGeometry x="524" y="1899" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-54" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="OCUKe9tTq92G45eqGp7R-51" target="OCUKe9tTq92G45eqGp7R-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-51" value="elem != NULL" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1900" width="110" height="40" as="geometry" />
+          <mxGeometry x="391" y="1899" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OCUKe9tTq92G45eqGp7R-55" value="分配的malloc_elem管理的内存大小可能大于实际需要，进行分拆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="653" y="1905" width="165" height="30" as="geometry" />
+          <mxGeometry x="654" y="1904" width="165" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
