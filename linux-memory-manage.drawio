@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T13:17:41.625Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="y7Cs6L2NYgThgZTdSYWl" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-06T13:18:21.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="Cv6Sr-0S1l23yZK8VSf1" version="23.1.1" type="github" pages="4">
   <diagram name="物理内存管理" id="bZm6AAoV1MQ4xdPfTZnK">
     <mxGraphModel dx="1220" dy="2187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,10 +299,10 @@
           <mxGeometry x="720" y="940" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTsqoePo69IkHv7tenj3-26" value="kmem_cache_alloc_node" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1060" width="160" height="40" as="geometry" />
+          <mxGeometry x="840" y="1060" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fTsqoePo69IkHv7tenj3-27" value="init_kmem_cache_node" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1120" width="160" height="40" as="geometry" />
+          <mxGeometry x="840" y="1120" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fTsqoePo69IkHv7tenj3-31" value="s-&amp;gt;cpu_slab = __alloc_percpu()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="1240" width="200" height="40" as="geometry" />
@@ -344,10 +344,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nb7vk2UFu0yFhdqlse9p-4" value="slab_state == &lt;br&gt;DOWN" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="830" y="990" width="100" height="50" as="geometry" />
+          <mxGeometry x="840" y="990" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nb7vk2UFu0yFhdqlse9p-6" value="early_kmem_cache_node_alloc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="995" width="180" height="40" as="geometry" />
+          <mxGeometry x="980" y="995" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nb7vk2UFu0yFhdqlse9p-9" value="slab_pre_alloc_hook" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="1700" width="130" height="40" as="geometry" />
