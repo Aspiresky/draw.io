@@ -1,11 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T02:53:38.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="j3hgRDEEjYkcBO-bY1I1" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T03:16:29.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="LOkxHOBMBbGqdNssX3EW" version="23.1.1" type="github">
   <diagram name="第 1 页" id="240bdJhtq2D6pQq34B5v">
     <mxGraphModel dx="886" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Du1fbmp9ZWxFlQCB1--J-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="190" height="40" as="geometry" />
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-2" value="rte_eal_malloc_heap_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-3" value="malloc_heap" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UHNz7__TyX3BLJQMnI3Q-5" target="UHNz7__TyX3BLJQMnI3Q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-5" value="struct malloc_elem free_head[];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-6" value="struct malloc_elem *first;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-7" value="struct malloc_elem *last;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-8" value="unsigned int socket_id;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-9" value="char name[];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-10" value="malloc_elem" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="5" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-11" value="LIST_ENTRY(malloc_elem) free_list;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="35" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-12" value="struct malloc_elem *prev;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="65" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-13" value="struct malloc_elem *next;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="95" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UHNz7__TyX3BLJQMnI3Q-14" value="struct rte_memseg_list *msl;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="125" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
