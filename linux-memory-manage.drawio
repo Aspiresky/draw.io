@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T02:37:58.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="ULEum1dmjI8SART7IS-t" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-06T02:50:39.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="J2_rohKFxZLXMPocxwXI" version="23.1.1" type="github" pages="3">
   <diagram name="物理内存管理" id="bZm6AAoV1MQ4xdPfTZnK">
     <mxGraphModel dx="1025" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,6 +308,14 @@
         <mxCell id="fTsqoePo69IkHv7tenj3-38" value="slab_alloc_node" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1880" width="130" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WB4DR_r-bg6jr05737Ex" name="第 3 页">
+    <mxGraphModel dx="1025" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
