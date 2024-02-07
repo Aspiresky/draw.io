@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T03:31:01.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="xN7G6ll1V2Lc56CqwnKI" version="23.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-07T03:42:18.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="TxTWxmYzZAa1w-O7MzTf" version="23.1.1" type="github" pages="2">
   <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
     <mxGraphModel dx="1644" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,16 +234,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aJ-2Motd2lM9QWuPt4oH-1" value="emc_lookup" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="360" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aJ-2Motd2lM9QWuPt4oH-2" value="根据key记录的hash索引emc_cache" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="200" height="40" as="geometry" />
+          <mxGeometry x="420" y="100" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aJ-2Motd2lM9QWuPt4oH-3" value="比较hash值一致性" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="100" y="160" width="120" height="40" as="geometry" />
+          <mxGeometry x="420" y="160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aJ-2Motd2lM9QWuPt4oH-4" value="netdev_flow_key_equal_mf" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="100" y="220" width="170" height="40" as="geometry" />
+          <mxGeometry x="420" y="220" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="UCn8ZwJ9PfPmb_IsHGhp-2" target="UCn8ZwJ9PfPmb_IsHGhp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="UCn8ZwJ9PfPmb_IsHGhp-2" target="UCn8ZwJ9PfPmb_IsHGhp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-2" value="dpcls_insert" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="UCn8ZwJ9PfPmb_IsHGhp-3" target="UCn8ZwJ9PfPmb_IsHGhp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="UCn8ZwJ9PfPmb_IsHGhp-3" target="UCn8ZwJ9PfPmb_IsHGhp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-3" value="dpcls_find_subtable" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-4" value="cmap_insert" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="110" y="730" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="UCn8ZwJ9PfPmb_IsHGhp-6" target="UCn8ZwJ9PfPmb_IsHGhp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-6" value="CMAP_FOR_EACH_WITH_HASH" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-7" value="dpcls_create_subtable" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-11" value="netdev_flow_key_equal" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UCn8ZwJ9PfPmb_IsHGhp-13" value="匹配mask，成功则返回subtable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="615" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
