@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T02:27:11.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="5i5IJ-wAGgfRhwZBz3kq" version="23.1.1" type="github">
-  <diagram name="第 1 页" id="PT89gSSG0Q9zwz_43x5v">
-    <mxGraphModel dx="1244" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-02-07T02:41:19.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="fKZdl1yIglDrYkr8VixP" version="23.1.1" type="github">
+  <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
+    <mxGraphModel dx="878" dy="983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cixltNxZxwXn1dxEwJjo-1" value="ofproto" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-2" value="OpenFlow switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-3" value="struct ofproto_class *ofproto_class;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="cixltNxZxwXn1dxEwJjo-4" target="cixltNxZxwXn1dxEwJjo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-4" value="struct oftable *tables;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-5" value="oftable" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-6" value="struct classifier cls;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-7" value="unsigned int n_flows;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-9" value="miniflow" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="398" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="cixltNxZxwXn1dxEwJjo-10" target="cixltNxZxwXn1dxEwJjo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-14" value="压缩" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cixltNxZxwXn1dxEwJjo-13">
+          <mxGeometry x="-0.16" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-16" value="compress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cixltNxZxwXn1dxEwJjo-13">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-10" value="flow" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="70" y="398" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-11" value="struct flow_tnl *tunnel;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="428" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-17" value="struct flowmap map;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="428" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-18" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="458" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-19" value="uint64_t values[n];" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="458" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cixltNxZxwXn1dxEwJjo-20" value="EMC流表项" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="368" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
