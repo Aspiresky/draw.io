@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-08T07:26:34.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="g0S_1fgFhX-FqRyPlZIl" version="23.0.2" type="github" pages="6">
+<mxfile host="Electron" modified="2024-02-12T14:48:34.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="MYNVVfr3Qv_fEeT-tyHb" version="23.0.2" type="device" pages="6">
   <diagram id="zKuGH8lxLStfQoq1imGa" name="memseg">
-    <mxGraphModel dx="1006" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,7 +148,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y9PmeQT1qHpCfc48_aUq" name="malloc_heap">
-    <mxGraphModel dx="1006" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="omsBw3Lfm4a6Wu8Xs-Qc" name="memzone">
-    <mxGraphModel dx="1006" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,7 +273,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZaZc1ASJPES8uR-5LDhn" name="mempool">
-    <mxGraphModel dx="1833" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,44 +648,44 @@
         <mxCell id="Gyvok06OLw8F6rujM6CW-144" value="uint32_t size;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="480" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-145" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gyvok06OLw8F6rujM6CW-145" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="690" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-146" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-147" target="Gyvok06OLw8F6rujM6CW-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-147" value="header" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gyvok06OLw8F6rujM6CW-147" value="header" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="380" y="700" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-148" value="element" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gyvok06OLw8F6rujM6CW-148" value="element" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="420" y="700" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-149" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-150" target="Gyvok06OLw8F6rujM6CW-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-150" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Gyvok06OLw8F6rujM6CW-150" value="trailer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="700" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-151" value="rte_mempool_objhdr" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="560" width="170" height="170" as="geometry" />
+          <mxGeometry x="614" y="560" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-152" value="struct rte_mempool *mp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="630" width="150" height="30" as="geometry" />
+          <mxGeometry x="624" y="630" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-153" value="rte_iova_t iova" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="660" width="150" height="30" as="geometry" />
+          <mxGeometry x="624" y="660" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-154" value="uint64_t cookie;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="690" width="150" height="30" as="geometry" />
+          <mxGeometry x="624" y="690" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-155" value="rte_mempool_objhdr next;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="600" width="150" height="30" as="geometry" />
+          <mxGeometry x="624" y="600" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-156" value="rte_mempool_objhdr" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="760" width="170" height="80" as="geometry" />
+          <mxGeometry x="614" y="760" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-157" value="uint64_t cookie;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="800" width="150" height="30" as="geometry" />
+          <mxGeometry x="624" y="800" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-158" value="rte_mempool_memhdr" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="820" width="181" height="170" as="geometry" />
@@ -706,7 +706,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4mWpOJM5e9ni40Nz3Hyz" name="pktmbuf">
-    <mxGraphModel dx="1006" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -840,7 +840,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q-NjENtKWGvax8H7cwFS" name="ethdev">
-    <mxGraphModel dx="1006" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
