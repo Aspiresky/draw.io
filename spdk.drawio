@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T06:11:04.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="O2qKqtz4zqGGOYRG_Q8-" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-14T06:14:45.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="eewKJEuj0wJXztHR3J1O" version="23.1.4" type="github" pages="2">
   <diagram name="vhost" id="jmmi51rrUISy_n19hUyG">
-    <mxGraphModel dx="1145" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b-z5DUXqOUfDcj88KUQw" name="vhost-blk">
-    <mxGraphModel dx="1145" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,7 +206,7 @@
           <mxGeometry x="340" y="460" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="exvt20RT4xSxEooIcV-R-19" value="&lt;div&gt;&amp;nbsp;struct spdk_vhost_dev_backend vhost_blk_device_backend = {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.start_session = &amp;nbsp;vhost_blk_start,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.stop_session = vhost_blk_stop,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.vhost_get_config = vhost_blk_get_config,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.dump_info_json = vhost_blk_dump_info_json,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.write_config_json = vhost_blk_write_config_json,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;.remove_device = vhost_blk_destroy,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="360" height="130" as="geometry" />
+          <mxGeometry x="560" y="300" width="360" height="130" as="geometry" />
         </mxCell>
         <mxCell id="exvt20RT4xSxEooIcV-R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.515;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;dashed=1;" edge="1" parent="1" source="exvt20RT4xSxEooIcV-R-18" target="exvt20RT4xSxEooIcV-R-19">
           <mxGeometry relative="1" as="geometry" />
