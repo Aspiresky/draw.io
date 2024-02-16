@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T04:50:40.624Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="pODdzK7hB8ldo9wAO3-M" version="23.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-16T05:17:19.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="XNHUCsHQSiZArbkqZdho" version="23.1.4" type="github" pages="4">
   <diagram name="DMA" id="xgYFPVZLW5DV_Q9SxGE-">
-    <mxGraphModel dx="666" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,42 @@
         </mxCell>
         <mxCell id="epJa9tiv43tySeTNqx5A-10" value="dma_alloc_direct()" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="200" y="220" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-12" value="struct dma_map_ops iommu_dma_ops&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="345" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="epJa9tiv43tySeTNqx5A-13" target="epJa9tiv43tySeTNqx5A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="epJa9tiv43tySeTNqx5A-13" target="epJa9tiv43tySeTNqx5A-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-13" value="dma_alloc_from_dev_coherent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-14" value="dev_get_coherent_memory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="539.5" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-16" value="1. 先从Device Coherent Pool申请所需内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="165" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-17" value="__dma_alloc_from_coherent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-21" value="检查设备是否配置了Coherent Pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="315" y="544.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-24" value="检查设备是否使用直接映射进行DMA操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="335" y="225" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-25" value="2. 通过DMA方式从系统页分配器申请所需内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="285" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="epJa9tiv43tySeTNqx5A-26" target="epJa9tiv43tySeTNqx5A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epJa9tiv43tySeTNqx5A-26" value="3. 通过IOMMU或SWIOTLB接口申请所需内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="370" y="345" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
