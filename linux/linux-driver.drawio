@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T06:22:28.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="YkxWGtPppOBNtWTEFmDK" version="23.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-16T06:22:52.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="DhPT8QwYduSa4olSwYyJ" version="23.1.4" type="github" pages="4">
   <diagram name="DMA" id="xgYFPVZLW5DV_Q9SxGE-">
     <mxGraphModel dx="1132" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="epJa9tiv43tySeTNqx5A-71" value="1. 直接映射方式，使用SWIOTLB机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1470" y="285" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="epJa9tiv43tySeTNqx5A-72" value="2. 使用IOMM操作接口进行映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="epJa9tiv43tySeTNqx5A-72" value="2. 使用IOMMU操作接口进行映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1420" y="345" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="epJa9tiv43tySeTNqx5A-78" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="epJa9tiv43tySeTNqx5A-74" target="epJa9tiv43tySeTNqx5A-77">
