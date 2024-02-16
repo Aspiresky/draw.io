@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T07:48:35.464Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="GeRJ3VwxQlxiRXrixQTQ" version="23.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-16T08:13:54.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="fVxJCMbPmuElBvkHawg1" version="23.1.4" type="github" pages="4">
   <diagram name="DMA" id="xgYFPVZLW5DV_Q9SxGE-">
-    <mxGraphModel dx="1099" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,7 +249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KXef_lr3H4kgYps5HuwF" name="IO资源">
-    <mxGraphModel dx="1099" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1736" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,6 +351,90 @@
         </mxCell>
         <mxCell id="Cx-dkxv_AwSUkfP9EXiz-72" value="resource&lt;br&gt;&lt;font color=&quot;#ff9300&quot;&gt;160~175&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="760" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry y="680" width="680" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-32" target="qyqtrRDnylrXDiilwgyX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-32" value="request_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="105" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-34" target="qyqtrRDnylrXDiilwgyX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-34" value="inb()、outb()等接口访问IO端口" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="930" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-35" value="release_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-37" target="qyqtrRDnylrXDiilwgyX-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-37" value="request_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="401" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-39" target="qyqtrRDnylrXDiilwgyX-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-39" value="ioread8()、ioread16()、iowrite8()、iowrite16()等接口访问IO端口" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="860" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-40" value="release_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="401" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-42" target="qyqtrRDnylrXDiilwgyX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-42" value="ioport_map" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="401" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-44" target="qyqtrRDnylrXDiilwgyX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-44" value="ioport_unmap" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="401" y="930" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-45" value="IO映射方式访问IO端口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="1050" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-46" value="内存映射方式访问IO端口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="381" y="1050" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1160" width="680" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-49" target="qyqtrRDnylrXDiilwgyX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-49" value="request_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-51" target="qyqtrRDnylrXDiilwgyX-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-51" value="ioread8()、ioread16()、iowrite8()、iowrite16()等接口访问IO内存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1340" width="201" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-52" value="release_region" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-54" target="qyqtrRDnylrXDiilwgyX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-54" value="ioremap" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qyqtrRDnylrXDiilwgyX-56" target="qyqtrRDnylrXDiilwgyX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-56" value="iounmap" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="31" y="1410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qyqtrRDnylrXDiilwgyX-57" value="访问IO内存（内存映射）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="1530" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
