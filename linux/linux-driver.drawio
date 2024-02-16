@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T08:13:54.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="fVxJCMbPmuElBvkHawg1" version="23.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-16T08:28:33.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="DE1revQKOtvr-aF6W22k" version="23.1.4" type="github" pages="4">
   <diagram name="DMA" id="xgYFPVZLW5DV_Q9SxGE-">
     <mxGraphModel dx="666" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KXef_lr3H4kgYps5HuwF" name="IO资源">
-    <mxGraphModel dx="1736" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2046" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,13 +260,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cx-dkxv_AwSUkfP9EXiz-1" value="ioremap" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cx-dkxv_AwSUkfP9EXiz-2" value="get_vm_area_caller" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="120" height="40" as="geometry" />
+          <mxGeometry x="110" y="60" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cx-dkxv_AwSUkfP9EXiz-3" value="ioremap_page_range" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="110" y="160" width="140" height="40" as="geometry" />
+          <mxGeometry x="110" y="120" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Cx-dkxv_AwSUkfP9EXiz-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry y="220" width="940" height="380" as="geometry" />
