@@ -1,6 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T02:31:05.299Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" version="23.1.4" etag="9J-7oQRWb1pirBskREyQ" type="github">
-  <diagram name="第 1 页" id="xgYFPVZLW5DV_Q9SxGE-">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-02-16T04:27:37.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="R5CiBVjp-cQu2FTwXTwm" version="23.1.4" type="github" pages="4">
+  <diagram name="DMA" id="xgYFPVZLW5DV_Q9SxGE-">
+    <mxGraphModel dx="666" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iuw46ZuQSelIB0kg3lWG-1" value="dma_alloc_coherent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iuw46ZuQSelIB0kg3lWG-2" value="dma_alloc_coherent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FLAurwg8rt9J_8dBdOzD" name="SWIOTLB">
+    <mxGraphModel dx="666" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="T1ZKqq_Ft51V0WmjHaD9-1" target="T1ZKqq_Ft51V0WmjHaD9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="T1ZKqq_Ft51V0WmjHaD9-1" target="T1ZKqq_Ft51V0WmjHaD9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="T1ZKqq_Ft51V0WmjHaD9-1" target="T1ZKqq_Ft51V0WmjHaD9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-1" value="swiotlb_init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-2" value="初始化io_tlb_nslabs变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-4" value="memblock_alloc_low" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-5" value="swiotlb_init_with_tbl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-9" value="从memblock分配器分配低端内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="165" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T1ZKqq_Ft51V0WmjHaD9-11" value="初始化swiotlb管理结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="225" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_509LxlbTZrj5P9ai26Q" name="CMA">
+    <mxGraphModel dx="666" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KXef_lr3H4kgYps5HuwF" name="IO">
+    <mxGraphModel dx="666" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
