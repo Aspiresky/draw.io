@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T02:43:14.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="2g7pLWv0JeqW9xK9RLUN" version="23.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-18T02:48:20.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Br7YD_XWu6D-CJ3WHhze" version="23.1.1" type="github" pages="3">
   <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
     <mxGraphModel dx="1935" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,14 +360,17 @@
         <mxCell id="xckoFzEQzLtEX0IvgdxD-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Tpd3ufb-UEckIwG61zw4-3" target="xckoFzEQzLtEX0IvgdxD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Tpd3ufb-UEckIwG61zw4-3" target="g7GXqrJrwCQ8I8c51fjE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Tpd3ufb-UEckIwG61zw4-3" value="queue_netdev_flow_put" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="534" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xckoFzEQzLtEX0IvgdxD-1" value="dp_netdev_alloc_flow_offload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="609" y="340" width="180" height="40" as="geometry" />
+          <mxGeometry x="609" y="400" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xckoFzEQzLtEX0IvgdxD-2" value="dp_netdev_append_flow_offload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="609" y="400" width="180" height="40" as="geometry" />
+          <mxGeometry x="609" y="460" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yc3ZP30t6-2lDrhL5_Zk-1" value="dp_netdev_upcall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="130" height="40" as="geometry" />
@@ -395,6 +398,41 @@
         </mxCell>
         <mxCell id="g7GXqrJrwCQ8I8c51fjE-9" value="卸载megaflow流表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="694" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="g7GXqrJrwCQ8I8c51fjE-10" target="g7GXqrJrwCQ8I8c51fjE-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="360" />
+              <mxPoint x="830" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-18" value="add/modify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="g7GXqrJrwCQ8I8c51fjE-16">
+          <mxGeometry x="0.2398" y="-4" relative="1" as="geometry">
+            <mxPoint x="15" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="g7GXqrJrwCQ8I8c51fjE-10" target="g7GXqrJrwCQ8I8c51fjE-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="360" />
+              <mxPoint x="830" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-19" value="delete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="g7GXqrJrwCQ8I8c51fjE-17">
+          <mxGeometry x="0.4269" y="-4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-10" value="创建卸载线程，入口dp_netdev_flow_offload_main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="609" y="340" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-12" value="dp_netdev_flow_offload_put" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="310" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g7GXqrJrwCQ8I8c51fjE-14" value="dp_netdev_flow_offload_del" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="370" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
