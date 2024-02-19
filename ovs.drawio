@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T02:27:37.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="-t2gzXJ2XKr37Ue0wXyt" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-19T02:33:59.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="7gyupyxReubclWgORIZ1" version="23.1.1" type="github" pages="4">
   <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
-    <mxGraphModel dx="2853" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WG6mIKDXf98Hm2B6oUXi" name="流表查找">
-    <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,7 +366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KfYyJIabWv8F5N57TYFu" name="流表卸载">
-    <mxGraphModel dx="746" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,11 +380,16 @@
           <mxGeometry y="160" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="inFKx90nOk23FcoaH2iq-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="yc3ZP30t6-2lDrhL5_Zk-5" target="inFKx90nOk23FcoaH2iq-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="860" />
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="g7GXqrJrwCQ8I8c51fjE-2" value="添加megaflow流表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="inFKx90nOk23FcoaH2iq-4">
           <mxGeometry x="-0.9269" y="-2" relative="1" as="geometry">
-            <mxPoint x="86" y="-302" as="offset" />
+            <mxPoint x="146" y="-332" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yc3ZP30t6-2lDrhL5_Zk-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="inFKx90nOk23FcoaH2iq-1" target="yc3ZP30t6-2lDrhL5_Zk-1">
@@ -508,7 +513,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v8G2agfzivl8Ko3PM7o7-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="g7GXqrJrwCQ8I8c51fjE-10" target="v8G2agfzivl8Ko3PM7o7-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="480" />
+              <mxPoint x="940" y="60" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="g7GXqrJrwCQ8I8c51fjE-10" value="创建卸载线程，入口dp_netdev_flow_offload_main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="609" y="460" width="180" height="40" as="geometry" />
@@ -597,14 +607,11 @@
         <mxCell id="v8G2agfzivl8Ko3PM7o7-4" value="dp_netdev_get_mega_ufid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="534" y="220" width="166" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v8G2agfzivl8Ko3PM7o7-5" value="根据match计算mega_ufid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="694" y="225" width="150" height="30" as="geometry" />
+        <mxCell id="v8G2agfzivl8Ko3PM7o7-5" value="将match.flow与掩码进行与运算，获得&lt;br&gt;masked_flow，根据mased_flow哈希&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;计算得到mega_ufid&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="709" y="220" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v8G2agfzivl8Ko3PM7o7-7" value="netdev_flow_key_init_masked" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="534" y="280" width="176" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="v8G2agfzivl8Ko3PM7o7-9" value="dp_netdev_upcall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1120" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v8G2agfzivl8Ko3PM7o7-11" value="odp_flow_key_hash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="580" width="130" height="40" as="geometry" />
