@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T02:33:59.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="7gyupyxReubclWgORIZ1" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-19T02:39:01.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="fQa0rgSFbxpTX4Baklk4" version="23.1.1" type="github" pages="4">
   <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
     <mxGraphModel dx="1877" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -296,6 +296,35 @@
         </mxCell>
         <mxCell id="uqy3bXzEaSLA1163_C_2-15" value="struct flow flow;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="327.5" y="1830" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-1" value="匹配字段相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="264" y="560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-2" value="匹配字段掩码相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="254" y="647" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="QhT98oRUzkLopGCzYd1w-1" target="QhT98oRUzkLopGCzYd1w-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="403" y="590" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-5" value="dpcls分类器：所有匹配字段掩码相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="519" y="625" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-6" value="精确匹配：掩码全为1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="531.5" y="578" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="QhT98oRUzkLopGCzYd1w-8" target="QhT98oRUzkLopGCzYd1w-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-10" value="部分字段不存在，掩码为0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="QhT98oRUzkLopGCzYd1w-9">
+          <mxGeometry x="-0.1443" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhT98oRUzkLopGCzYd1w-8" value="所有字段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="560" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
