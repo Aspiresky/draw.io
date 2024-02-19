@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T01:40:32.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="GCuJmRCpD7XIQdGAFtL4" version="23.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-19T01:57:05.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="n5r6ZNKDRu0Q54rwoWMU" version="23.1.1" type="github" pages="4">
   <diagram name="流表" id="PT89gSSG0Q9zwz_43x5v">
     <mxGraphModel dx="1860" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,16 +160,16 @@
           <mxGeometry x="10" y="1020" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cixltNxZxwXn1dxEwJjo-65" value="emc_entry" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="795" width="200" height="100" as="geometry" />
+          <mxGeometry x="870" y="795" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cixltNxZxwXn1dxEwJjo-66" value="struct dp_netdev_flow *flow;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="825" width="180" height="30" as="geometry" />
+          <mxGeometry x="880" y="825" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oIIJKYIm2VmkRfVMpoMM-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="cixltNxZxwXn1dxEwJjo-67" target="cixltNxZxwXn1dxEwJjo-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cixltNxZxwXn1dxEwJjo-67" value="struct netdev_flow_key key;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="855" width="180" height="30" as="geometry" />
+          <mxGeometry x="880" y="855" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cixltNxZxwXn1dxEwJjo-70" value="dpcls_subtable" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="539" y="1118" width="190" height="100" as="geometry" />
@@ -216,20 +216,38 @@
         <mxCell id="D7nwFbPc7nLDZD2cF_KA-1" value="struct pvector subtables;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="289" y="1208" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oIIJKYIm2VmkRfVMpoMM-4" value="dp_netdev_flow" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="520" width="200" height="130" as="geometry" />
+        <mxCell id="WoH132ruxNZVbLMPqTdf-3" value="dp_netdev_flow" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1440" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="oIIJKYIm2VmkRfVMpoMM-5" value="struct flow flow;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="550" width="180" height="30" as="geometry" />
+        <mxCell id="WoH132ruxNZVbLMPqTdf-4" value="struct flow flow;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1470" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oIIJKYIm2VmkRfVMpoMM-6" value="ovs_u128 ufid;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="580" width="180" height="30" as="geometry" />
+        <mxCell id="WoH132ruxNZVbLMPqTdf-5" value="ovs_u128 ufid;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1500" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oIIJKYIm2VmkRfVMpoMM-7" value="ovs_u128 mega_ufid;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="610" width="180" height="30" as="geometry" />
+        <mxCell id="WoH132ruxNZVbLMPqTdf-6" value="ovs_u128 mega_ufid;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1530" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WoH132ruxNZVbLMPqTdf-1" value="模糊流表ufid，卸载流表时使用此ufid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="610" width="200" height="30" as="geometry" />
+        <mxCell id="WoH132ruxNZVbLMPqTdf-7" value="模糊流表ufid，卸载流表时使用此ufid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="519" y="1530" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-8" value="作用？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="509" y="1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-10" value="dp_flow_offload_item" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry y="1400" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="WoH132ruxNZVbLMPqTdf-11" target="WoH132ruxNZVbLMPqTdf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-11" value="struct dp_netdev_flow *flow;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1430" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-12" value="struct match match;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1460" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WoH132ruxNZVbLMPqTdf-13" value="struct nlattr *actions;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1490" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
