@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T04:58:49.234Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="vUwctmIpyiq_QbC341vi" version="23.1.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-24T10:36:34.671Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15" etag="s6TSf8PIc0RroDyTlv6h" version="23.1.5" type="github" pages="8">
   <diagram id="aSXCWrZroMxlR8Uha0oI" name="内存层次">
     <mxGraphModel dx="1665" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -389,7 +389,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZaZc1ASJPES8uR-5LDhn" name="mempool">
-    <mxGraphModel dx="1876" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1983" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -439,7 +439,7 @@
           <mxGeometry x="1" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-35" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="1900" width="930" height="500" as="geometry" />
+          <mxGeometry x="1" y="2338" width="930" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-38" target="Gyvok06OLw8F6rujM6CW-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -448,19 +448,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-38" value="rte_mempool_get" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry y="1920" width="160" height="40" as="geometry" />
+          <mxGeometry x="21" y="2358" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-40" target="Gyvok06OLw8F6rujM6CW-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-40" value="rte_mempool_get_bulk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="79" y="2040" width="181" height="40" as="geometry" />
+          <mxGeometry x="100" y="2478" width="181" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-42" target="Gyvok06OLw8F6rujM6CW-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-42" value="rte_mempool_generic_get" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="2100" width="180" height="40" as="geometry" />
+          <mxGeometry x="181" y="2538" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-67" target="Gyvok06OLw8F6rujM6CW-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -472,10 +472,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-46" value="rte_mempool_do_generic_get" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="2160" width="180" height="40" as="geometry" />
+          <mxGeometry x="261" y="2598" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-47" value="rte_mempool_default_cache" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1980" width="180" height="40" as="geometry" />
+          <mxGeometry x="101" y="2418" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;strokeColor=#ff2600;" parent="1" source="Gyvok06OLw8F6rujM6CW-67" target="Gyvok06OLw8F6rujM6CW-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -486,64 +486,64 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-50" value="rte_mempool_ops_dequeue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="2280" width="201" height="40" as="geometry" />
+          <mxGeometry x="435" y="2718" width="201" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-51" value="Per-lcore cache" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1960" width="330" height="180" as="geometry" />
+          <mxGeometry x="581" y="2398" width="330" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="589" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="610" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="619" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="640" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-54" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="649" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="670" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-55" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="679" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="700" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-56" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="709" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="730" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-57" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="739" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="760" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="769" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="790" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-59" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="829" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="850" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-60" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="799" y="2040" width="30" height="30" as="geometry" />
+          <mxGeometry x="820" y="2478" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-62" target="Gyvok06OLw8F6rujM6CW-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-62" value="cache-&amp;gt;len - 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="793" y="1988" width="100" height="30" as="geometry" />
+          <mxGeometry x="814" y="2426" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-63" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="789" y="2020" width="20" height="120" as="geometry" />
+          <mxGeometry x="810" y="2458" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-64" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="784" y="2083" width="30" height="30" as="geometry" />
+          <mxGeometry x="805" y="2521" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-65" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;strokeColor=#ff9300;" parent="1" vertex="1">
-          <mxGeometry x="714" y="1971" width="20" height="270" as="geometry" />
+          <mxGeometry x="735" y="2409" width="20" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-66" value="cache-&amp;gt;len" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#ff9300;" parent="1" vertex="1">
-          <mxGeometry x="684" y="2111" width="80" height="30" as="geometry" />
+          <mxGeometry x="705" y="2549" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-67" value="cache-&amp;gt;len &amp;gt; n" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="319" y="2220" width="110" height="40" as="geometry" />
+          <mxGeometry x="340" y="2658" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-68" value="rte_mempool_ops_dequeue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="319" y="2340" width="201" height="40" as="geometry" />
+          <mxGeometry x="340" y="2778" width="201" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-69" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="2460" width="950" height="520" as="geometry" />
+          <mxGeometry x="1" y="2898" width="950" height="520" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-72" target="Gyvok06OLw8F6rujM6CW-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -552,19 +552,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-72" value="rte_mempool_put" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1" y="2480" width="160" height="40" as="geometry" />
+          <mxGeometry x="20" y="2918" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-74" target="Gyvok06OLw8F6rujM6CW-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-74" value="rte_mempool_put_bulk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="78" y="2600" width="172" height="40" as="geometry" />
+          <mxGeometry x="99" y="3038" width="172" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-76" target="Gyvok06OLw8F6rujM6CW-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-76" value="rte_mempool_generic_put" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="159" y="2660" width="171" height="40" as="geometry" />
+          <mxGeometry x="180" y="3098" width="171" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-79" target="Gyvok06OLw8F6rujM6CW-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -573,76 +573,76 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-79" value="rte_mempool_do_generic_put" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="2720" width="171" height="40" as="geometry" />
+          <mxGeometry x="260" y="3158" width="171" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-80" value="rte_mempool_default_cache" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="79" y="2540" width="180" height="40" as="geometry" />
+          <mxGeometry x="100" y="2978" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-81" value="rte_mempool_ops_enqueue_bulk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="435" y="2920" width="180" height="40" as="geometry" />
+          <mxGeometry x="456" y="3358" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-82" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-83" target="Gyvok06OLw8F6rujM6CW-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-83" value="cache-&amp;gt;len &amp;gt;= &lt;br&gt;cache-&amp;gt;flushthresh" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="2840" width="160" height="50" as="geometry" />
+          <mxGeometry x="341" y="3278" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-84" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;strokeColor=#ff2600;" parent="1" source="Gyvok06OLw8F6rujM6CW-85" target="Gyvok06OLw8F6rujM6CW-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-85" value="&lt;font color=&quot;#ff2600&quot;&gt;将待释放的项放回到Per-lcore cache中&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="319" y="2780" width="211" height="40" as="geometry" />
+          <mxGeometry x="340" y="3218" width="211" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-86" value="Per-lcore cache" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;dashed=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="580" y="2480" width="330" height="180" as="geometry" />
+          <mxGeometry x="601" y="2918" width="330" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-87" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="609" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="630" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-88" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="639" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="660" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-89" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="669" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="690" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-90" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="699" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="720" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="729" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="750" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-92" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="759" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="780" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-93" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="789" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="810" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-94" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="849" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="870" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-95" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="819" y="2560" width="30" height="30" as="geometry" />
+          <mxGeometry x="840" y="2998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Gyvok06OLw8F6rujM6CW-97" target="Gyvok06OLw8F6rujM6CW-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-97" value="cache-&amp;gt;len - 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="694" y="2510" width="100" height="30" as="geometry" />
+          <mxGeometry x="715" y="2948" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-98" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="809" y="2540" width="20" height="120" as="geometry" />
+          <mxGeometry x="830" y="2978" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-99" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="804" y="2603" width="30" height="30" as="geometry" />
+          <mxGeometry x="825" y="3041" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-100" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fontColor=#FF9300;strokeColor=#ff9300;" parent="1" vertex="1">
-          <mxGeometry x="673.5" y="2551.5" width="20" height="149" as="geometry" />
+          <mxGeometry x="694.5" y="2989.5" width="20" height="149" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-101" value="cache-&amp;gt;len" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#ff9300;" parent="1" vertex="1">
-          <mxGeometry x="643.5" y="2630" width="80" height="30" as="geometry" />
+          <mxGeometry x="664.5" y="3068" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-102" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="1140" width="970" height="620" as="geometry" />
+          <mxGeometry x="-60" y="1140" width="1020" height="800" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-103" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-106" target="Gyvok06OLw8F6rujM6CW-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -653,7 +653,10 @@
         <mxCell id="Gyvok06OLw8F6rujM6CW-105" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-106" target="Gyvok06OLw8F6rujM6CW-113" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-106" value="rte_mempool_create" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="GudwXNSxO6s1PRgvABcE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="Gyvok06OLw8F6rujM6CW-106" target="GudwXNSxO6s1PRgvABcE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gyvok06OLw8F6rujM6CW-106" value="rte_mempool_create" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="1160" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-110" target="Gyvok06OLw8F6rujM6CW-114" edge="1">
@@ -672,10 +675,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-112" value="rte_mempool_populate_default" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1460" width="180" height="40" as="geometry" />
+          <mxGeometry x="40" y="1550" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-113" value="rte_mempool_obj_iter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1700" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="1790" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-114" value="rte_mempool_calc_obj_size" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1280" width="180" height="40" as="geometry" />
@@ -684,7 +687,7 @@
           <mxGeometry x="120" y="1400" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-116" value="调用用户传入的回调初始化每一项object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="209" y="1710" width="220" height="30" as="geometry" />
+          <mxGeometry x="209" y="1795" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-117" value="计算mempool的大小" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="1340" width="180" height="40" as="geometry" />
@@ -696,28 +699,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-120" value="rte_mempool_populate_iova" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1520" width="180" height="40" as="geometry" />
+          <mxGeometry x="120" y="1610" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-121" value="rte_mempool_ops_populate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="199" y="1580" width="180" height="40" as="geometry" />
+          <mxGeometry x="199" y="1670" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-122" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;strokeColor=#ff2600;" parent="1" source="Gyvok06OLw8F6rujM6CW-123" target="Gyvok06OLw8F6rujM6CW-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gyvok06OLw8F6rujM6CW-123" value="调用mempool_add_elem&lt;br&gt;添加object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="379" y="1585" width="161" height="30" as="geometry" />
+        <mxCell id="Gyvok06OLw8F6rujM6CW-123" value="使用指定的mempool_ops构建共享缓存，内部调用mempool_add_elem&lt;br&gt;添加object到对象链表中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1663.75" width="211" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-124" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="Gyvok06OLw8F6rujM6CW-125" target="Gyvok06OLw8F6rujM6CW-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-125" value="mempool_add_elem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1440" width="160" height="40" as="geometry" />
+          <mxGeometry x="645" y="1600" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-126" value="STAILQ_INSERT_TAIL(&amp;amp;mp-&amp;gt;elt_list)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="1500" width="210" height="40" as="geometry" />
+          <mxGeometry x="721" y="1670" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-127" value="STAILQ_INSERT_TAIL(&amp;amp;mp-&amp;gt;memlist)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="199" y="1640" width="221" height="40" as="geometry" />
+          <mxGeometry x="199" y="1730" width="221" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gyvok06OLw8F6rujM6CW-130" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="-60" y="420" width="970" height="590" as="geometry" />
@@ -819,13 +822,22 @@
           <mxGeometry x="330" y="860" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GudwXNSxO6s1PRgvABcE-1" value="从共享缓存中足够的空闲对象到Per-core缓存中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="615" y="2285" width="256" height="30" as="geometry" />
+          <mxGeometry x="636" y="2723" width="256" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GudwXNSxO6s1PRgvABcE-2" value="超出flushthresh限制的对象需要放回到共享缓存中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="615" y="2925" width="274" height="30" as="geometry" />
+          <mxGeometry x="636" y="3363" width="274" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GudwXNSxO6s1PRgvABcE-4" value="Object" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="429" y="740" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GudwXNSxO6s1PRgvABcE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="GudwXNSxO6s1PRgvABcE-5" target="GudwXNSxO6s1PRgvABcE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GudwXNSxO6s1PRgvABcE-5" value="设置mempool_ops，用于配置共享缓存的构建和对象管理方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1480" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GudwXNSxO6s1PRgvABcE-7" value="&lt;div&gt;if ((flags &amp;amp; RTE_MEMPOOL_F_SP_PUT) &amp;amp;&amp;amp; (flags &amp;amp; RTE_MEMPOOL_F_SC_GET))&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;ret = rte_mempool_set_ops_byname(mp, &quot;ring_sp_sc&quot;, NULL);&lt;/div&gt;&lt;div&gt;else if (flags &amp;amp; RTE_MEMPOOL_F_SP_PUT)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;ret = rte_mempool_set_ops_byname(mp, &quot;ring_sp_mc&quot;, NULL);&lt;/div&gt;&lt;div&gt;else if (flags &amp;amp; RTE_MEMPOOL_F_SC_GET)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;ret = rte_mempool_set_ops_byname(mp, &quot;ring_mp_sc&quot;, NULL);&lt;/div&gt;&lt;div&gt;else&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;ret = rte_mempool_set_ops_byname(mp, &quot;ring_mp_mc&quot;, NULL);&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1340" width="500" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
