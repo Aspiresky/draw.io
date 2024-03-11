@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T07:33:53.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="eG2t-rEU6LYkxhI97iI1" version="24.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-11T07:37:02.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="bIH5B9_ISuBylzGmxePo" version="24.0.0" type="github" pages="3">
   <diagram name="vhost" id="jmmi51rrUISy_n19hUyG">
     <mxGraphModel dx="2168" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -572,11 +572,17 @@
         <mxCell id="JPFC4mpWk-uUKcgjofXp-12" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="JPFC4mpWk-uUKcgjofXp-2" target="JPFC4mpWk-uUKcgjofXp-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-17" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JPFC4mpWk-uUKcgjofXp-2" target="JPFC4mpWk-uUKcgjofXp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-2" value="create_iscsi_disk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="100" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-19" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="JPFC4mpWk-uUKcgjofXp-3" target="JPFC4mpWk-uUKcgjofXp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-3" value="bdev_iscsi_create_cb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="80" width="160" height="40" as="geometry" />
+          <mxGeometry x="490" y="100" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-4" value="iscsi_create_context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="160" width="160" height="40" as="geometry" />
@@ -584,11 +590,26 @@
         <mxCell id="JPFC4mpWk-uUKcgjofXp-7" value="iscsi_parse_full_url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="220" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-14" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JPFC4mpWk-uUKcgjofXp-8" target="JPFC4mpWk-uUKcgjofXp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-8" value="iscsi_full_connect_async" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="280" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-9" value="新建请求插入到g_iscsi_conn_req中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-16" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="JPFC4mpWk-uUKcgjofXp-13" target="JPFC4mpWk-uUKcgjofXp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-13" value="iscsi_connect_cb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-15" value="iscsi_inquiry_task" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPFC4mpWk-uUKcgjofXp-18" value="注册poller，回调为bdev_iscsi_poll_lun" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
