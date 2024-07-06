@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T06:44:54.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="XnrnL_cyI2chfW3mB9Xh" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-06T06:49:23.879Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="iFD3rV1ei2v1wXIjzpd4" version="24.6.4" type="github" pages="4">
   <diagram name="vhost" id="jmmi51rrUISy_n19hUyG">
     <mxGraphModel dx="2168" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -675,6 +675,23 @@
         </mxCell>
         <mxCell id="MzSGfGcEQjHDKNrddDB9-31" value="struct spdk_bdev_fn_table nvmelib_fn_table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="500" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CU5qJ7GbS4JPFAw6NNEE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="CU5qJ7GbS4JPFAw6NNEE-1" target="CU5qJ7GbS4JPFAw6NNEE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CU5qJ7GbS4JPFAw6NNEE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=0;" edge="1" parent="1" source="CU5qJ7GbS4JPFAw6NNEE-1" target="CU5qJ7GbS4JPFAw6NNEE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CU5qJ7GbS4JPFAw6NNEE-1" value="spdk_nvme_ctrlr" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry y="1000" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CU5qJ7GbS4JPFAw6NNEE-2" value="spdk_nvme_ns" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CU5qJ7GbS4JPFAw6NNEE-3" value="spdk_nvme_qpair" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1080" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
