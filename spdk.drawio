@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T07:37:02.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="bIH5B9_ISuBylzGmxePo" version="24.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-06T06:44:54.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="XnrnL_cyI2chfW3mB9Xh" version="24.6.4" type="github" pages="4">
   <diagram name="vhost" id="jmmi51rrUISy_n19hUyG">
     <mxGraphModel dx="2168" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -610,6 +610,71 @@
         </mxCell>
         <mxCell id="JPFC4mpWk-uUKcgjofXp-18" value="注册poller，回调为bdev_iscsi_poll_lun" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A3DqcZ5eGKexCXb7bib9" name="nvme分层架构">
+    <mxGraphModel dx="854" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-2" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-3" value="nvme_pcie.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-4" value="nvme_tcp.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-5" value="nvme_rdma.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-6" value="nvme_transport.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-8" value="lib/nvme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-9" value="Host（文件）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-11" value="module/bdev/nvme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-12" value="bdev_nvme.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-22" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MzSGfGcEQjHDKNrddDB9-26" target="MzSGfGcEQjHDKNrddDB9-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MzSGfGcEQjHDKNrddDB9-26" target="MzSGfGcEQjHDKNrddDB9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MzSGfGcEQjHDKNrddDB9-26" target="MzSGfGcEQjHDKNrddDB9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-26" value="spdk_nvme_transport_ops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-27" value="pcie_ops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-28" value="rdma_ops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-29" value="tcp_ops" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-30" value="spdk nvme api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzSGfGcEQjHDKNrddDB9-31" value="struct spdk_bdev_fn_table nvmelib_fn_table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
