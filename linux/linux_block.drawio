@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="3">
   <diagram name="blk超时" id="UyGjig5gVW3Z0PGqcg_s">
     <mxGraphModel dx="1086" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -212,6 +212,23 @@
         </mxCell>
         <mxCell id="feXFzlv0EnpRHllGqnKq-4" value="blk_cleanup_queue" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="740" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ery1WYu0mf2TspVZOD0f" name="nvme dma">
+    <mxGraphModel dx="1024" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y_kz9mppqmHKI7YJSck4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="y_kz9mppqmHKI7YJSck4-2" target="y_kz9mppqmHKI7YJSck4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-2" value="&lt;span style=&quot;font-family: Helvetica; text-wrap: nowrap;&quot;&gt;nvme_map_data&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-3" value="blk_rq_map_sg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
