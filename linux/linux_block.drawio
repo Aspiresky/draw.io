@@ -217,7 +217,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ery1WYu0mf2TspVZOD0f" name="nvme dma">
-    <mxGraphModel dx="1024" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,6 +232,18 @@
         </mxCell>
         <mxCell id="y_kz9mppqmHKI7YJSck4-4" value="将块请求中的数据映射到聚合离散列表中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="240" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="y_kz9mppqmHKI7YJSck4-5" target="y_kz9mppqmHKI7YJSck4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-5" value="__blk_rq_map_sg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-6" value="__blk_bvec_map_sg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y_kz9mppqmHKI7YJSck4-9" value="__blk_bios_map_sg" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
