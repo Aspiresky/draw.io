@@ -1,4 +1,78 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6" pages="5">
+  <diagram id="LZ22sFW_KQxf3g4ZvXGI" name="bio">
+    <mxGraphModel dx="1011" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-1" value="bio" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#dae8fc;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-2" target="CSTDYkx3ZU2FwSXKfl-Y-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-2" value="struct bvec_iter bi_iter" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-3" value="单个bio描述磁盘上连续的一段空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-4" target="CSTDYkx3ZU2FwSXKfl-Y-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-4" value="struct bio_integrity_payload *bi_integrity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-5" target="CSTDYkx3ZU2FwSXKfl-Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-5" value="struct bio_vec *bi_io_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-6" value="bio_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#dae8fc;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-7" value="struct page *bv_page" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-8" value="unsigned int bv_offset" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-9" value="unsigned int bv_len" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="390" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-11" value="bio_vec描述物理内存连续的一段空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-12" value="bvec_iter" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#dae8fc;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-13" value="sector_t bi_sector" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-14" value="unsigned int bi_idx" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-15" value="unsigned int bi_size" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-16" value="用作bio_vec的迭代器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-18" value="bio_integrity_payload" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#dae8fc;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="585" width="230" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-19" value="struct bvec_iter bip_iter" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="615" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-21" value="struct bio_vec *bip_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="655" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-22" value="用于存放对应数据的DIF校验信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="720" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="blk超时" id="UyGjig5gVW3Z0PGqcg_s">
     <mxGraphModel dx="1086" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
