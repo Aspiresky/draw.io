@@ -10,7 +10,7 @@
         <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-2" target="CSTDYkx3ZU2FwSXKfl-Y-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-2" value="struct bvec_iter bi_iter" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-2" value="struct bvec_iter bi_iter" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="350" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-3" value="单个bio描述磁盘上连续的一段空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -19,13 +19,13 @@
         <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-4" target="CSTDYkx3ZU2FwSXKfl-Y-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-4" value="struct bio_integrity_payload *bi_integrity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-4" value="struct bio_integrity_payload *bi_integrity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="430" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="CSTDYkx3ZU2FwSXKfl-Y-5" target="CSTDYkx3ZU2FwSXKfl-Y-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-5" value="struct bio_vec *bi_io_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-5" value="struct bio_vec *bi_io_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;fillColor=default;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="390" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CSTDYkx3ZU2FwSXKfl-Y-6" value="bio_vec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=top;fontFamily=Lucida Console;fontSize=12;labelBackgroundColor=default;fillColor=#dae8fc;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
