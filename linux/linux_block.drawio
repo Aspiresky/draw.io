@@ -93,6 +93,44 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="B9wwOhW2jKztQXHDj4PH" name="blk integrity">
+    <mxGraphModel dx="989" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="A6JWS-UuPLlRgzc4HJEJ-2" target="A6JWS-UuPLlRgzc4HJEJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="A6JWS-UuPLlRgzc4HJEJ-2" target="A6JWS-UuPLlRgzc4HJEJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="A6JWS-UuPLlRgzc4HJEJ-2" target="A6JWS-UuPLlRgzc4HJEJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-2" value="bio_integrity_prep" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-3" value="bio_integrity_alloc" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-4" value="分配DIF信息的缓冲区" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-5" value="bio_integrity_add_page" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="A6JWS-UuPLlRgzc4HJEJ-7" target="A6JWS-UuPLlRgzc4HJEJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-7" value="if (bio_data_dir(bio) == WRITE) {" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A6JWS-UuPLlRgzc4HJEJ-8" value="bio_integrity_process" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="oBrDIr75Df9D2iPJ914B" name="blockfs">
     <mxGraphModel dx="1014" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -595,14 +633,6 @@
         <mxCell id="t1S6DIisRkLU6tecjmQf-14" value="1.若NVMe设备支持PI，则向块层注册DIF校验策略&lt;div&gt;2.若NVMe设备格式化成要携带元数据，但是不支持PI，则将NS容量配置为0，防止应用写盘&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Lucida Console;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="710" y="715" width="510" height="40" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="B9wwOhW2jKztQXHDj4PH" name="blk integrity">
-    <mxGraphModel dx="989" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
