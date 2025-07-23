@@ -181,8 +181,17 @@
             <mxPoint x="777" y="825" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="kBacrR8LGLzsb-8gWbzI-26" target="kBacrR8LGLzsb-8gWbzI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kBacrR8LGLzsb-8gWbzI-26" value="if (is_sync_kiocb(iocb) &amp;amp;&amp;amp; nr_pages &amp;lt;= BIO_MAX_VECS)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="790" y="870" width="390" height="30" as="geometry" />
+          <mxGeometry x="790" y="860" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-28" value="__blkdev_direct_IO_simple" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="920" y="910" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-30" value="计算iovec需要占用的物理页面数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="960" y="810" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
