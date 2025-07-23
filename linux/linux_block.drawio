@@ -173,6 +173,12 @@
         <mxCell id="kBacrR8LGLzsb-8gWbzI-22" value="bio_iov_vecs_to_alloc" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="790" y="810" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="kBacrR8LGLzsb-8gWbzI-23" target="kBacrR8LGLzsb-8gWbzI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="kBacrR8LGLzsb-8gWbzI-23" target="kBacrR8LGLzsb-8gWbzI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kBacrR8LGLzsb-8gWbzI-23" value="__blkdev_direct_IO" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="800" y="1020" width="170" height="30" as="geometry" />
         </mxCell>
@@ -192,6 +198,18 @@
         </mxCell>
         <mxCell id="kBacrR8LGLzsb-8gWbzI-30" value="计算iovec需要占用的物理页面数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="960" y="810" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-31" value="..." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1070" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-33" value="封装BIO结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1070" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-34" value="submit_bio" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kBacrR8LGLzsb-8gWbzI-36" value="提交IO到通用块层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1130" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
