@@ -142,8 +142,8 @@
         <mxCell id="qhNR07uMXUh_uErh_DA2-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="qhNR07uMXUh_uErh_DA2-50" target="qhNR07uMXUh_uErh_DA2-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qhNR07uMXUh_uErh_DA2-56" value="bio: 通用块层IO请求，关联磁盘上连续的扇区&lt;div&gt;bio_vec：关联物理内存连续的数据&lt;/div&gt;&lt;div&gt;request：块设备驱动层IO请求&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry y="120" width="260" height="60" as="geometry" />
+        <mxCell id="qhNR07uMXUh_uErh_DA2-56" value="bio: 通用块层IO请求，关联磁盘上连续的扇区&lt;div&gt;bio_vec：关联物理内存连续的数据，内核的术语里也叫segment&lt;/div&gt;&lt;div&gt;request：块设备驱动层IO请求&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="120" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
