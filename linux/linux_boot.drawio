@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15" version="28.0.7" pages="2">
   <diagram name="第 1 页" id="63_3qoAnxPwMdt2-b3xb">
     <mxGraphModel dx="895" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,41 @@
         </mxCell>
         <mxCell id="7qoL6DI69vbA4cAEnser-11" value="PAGE_OFFSET+TEXT_OFFSET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="148" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E38hLb47qdNvOmSOidoN" name="第 2 页">
+    <mxGraphModel dx="737" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;arcSize=5;" edge="1" parent="1" source="BQGxKB7nTDEFRBFk2Emi-1" target="BQGxKB7nTDEFRBFk2Emi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-1" value="vmlinux" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQGxKB7nTDEFRBFk2Emi-2" target="BQGxKB7nTDEFRBFk2Emi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-2" value="Image" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-4" value="未压缩的内核镜像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-5" value="Image Header" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-6" value="vmlinuz" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-8" value="压缩后的内核镜像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="458" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-9" value="原始ELF格式可执行文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="458" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
