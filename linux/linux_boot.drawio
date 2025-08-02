@@ -129,6 +129,30 @@
         <mxCell id="BQGxKB7nTDEFRBFk2Emi-9" value="原始ELF格式可执行文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="458" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;arcSize=5;" edge="1" parent="1" source="BQGxKB7nTDEFRBFk2Emi-11" target="BQGxKB7nTDEFRBFk2Emi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-11" value="vmlinux" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BQGxKB7nTDEFRBFk2Emi-13" target="BQGxKB7nTDEFRBFk2Emi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-13" value="Image" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="370" y="560" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-14" value="未压缩的内核镜像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="780" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-16" value="vmlinuz（bzImage/zImage）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="580" y="560" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-17" value="压缩后的内核镜像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="778" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BQGxKB7nTDEFRBFk2Emi-18" value="原始ELF格式可执行文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="778" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
