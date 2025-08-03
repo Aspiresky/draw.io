@@ -218,7 +218,7 @@
         </mxCell>
         <mxCell id="nNXhMokhpBfABgjti7Lr-31" value="make" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nNXhMokhpBfABgjti7Lr-30">
           <mxGeometry x="0.5579" y="5" relative="1" as="geometry">
-            <mxPoint x="-24" y="-68" as="offset" />
+            <mxPoint x="-24" y="-52" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nNXhMokhpBfABgjti7Lr-20" value="Linux内核源代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
