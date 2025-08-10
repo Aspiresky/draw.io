@@ -32,7 +32,7 @@
           <mxGeometry x="240" y="390" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="o9-UYdJUXJBCd2sNIUaf-19" value="ARM64 Linux" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="970" y="50" width="100" height="30" as="geometry" />
+          <mxGeometry x="460" y="750" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9-UYdJUXJBCd2sNIUaf-20" value=".init.text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="240" y="410" width="160" height="30" as="geometry" />
@@ -61,8 +61,8 @@
         <mxCell id="7qoL6DI69vbA4cAEnser-3" value="PAGE_OFFSET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1360" y="800" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qoL6DI69vbA4cAEnser-6" value="vmlinux链接视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="490" y="600" width="110" height="30" as="geometry" />
+        <mxCell id="7qoL6DI69vbA4cAEnser-6" value="Aarch64 vmlinux链接视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="600" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qoL6DI69vbA4cAEnser-7" value="内核运行视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1500" y="920" width="100" height="30" as="geometry" />
