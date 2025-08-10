@@ -86,16 +86,16 @@
           <mxGeometry x="240" y="770" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaGMxvtzdyYCr66LEhoJ-3" value="64B Image Header" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="650" y="820" width="160" height="30" as="geometry" />
+          <mxGeometry x="650" y="340" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaGMxvtzdyYCr66LEhoJ-4" value=".head.text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="650" y="850" width="160" height="30" as="geometry" />
+          <mxGeometry x="650" y="370" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MaGMxvtzdyYCr66LEhoJ-5" value=".text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="650" y="880" width="160" height="110" as="geometry" />
+          <mxGeometry x="650" y="400" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MaGMxvtzdyYCr66LEhoJ-7" value=".data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="650" y="990" width="160" height="40" as="geometry" />
+          <mxGeometry x="650" y="510" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MaGMxvtzdyYCr66LEhoJ-8" value="init_idmap_pg_dir" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="240" y="510" width="160" height="20" as="geometry" />
