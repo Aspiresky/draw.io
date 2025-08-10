@@ -264,75 +264,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-3" target="4JPxv0iZ1SHB-yEqh3QH-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-30" y="230" />
-              <mxPoint x="-30" y="120" />
-              <mxPoint x="125" y="120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-39" value="跳转到primary_entry执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="4JPxv0iZ1SHB-yEqh3QH-38">
-          <mxGeometry x="-0.2271" y="3" relative="1" as="geometry">
-            <mxPoint y="14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-3" value="Linux内核入口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="209.5" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-4" target="4JPxv0iZ1SHB-yEqh3QH-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-4" value="preserved_boot_args" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="210" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="260" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-6" target="4JPxv0iZ1SHB-yEqh3QH-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-6" value="init_kernel_el" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="280" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="330" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-10" target="4JPxv0iZ1SHB-yEqh3QH-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-10" value="__create_page_tables&lt;div&gt;创建恒等映射&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="350" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="400" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-12" target="4JPxv0iZ1SHB-yEqh3QH-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-12" value="__cpu_setup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="470" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-14" target="4JPxv0iZ1SHB-yEqh3QH-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-14" value="__primary_switch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="220" width="150" height="40" as="geometry" />
+          <mxGeometry x="335" y="190" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-17" target="4JPxv0iZ1SHB-yEqh3QH-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-17" value="__enable_mmu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="290" width="150" height="40" as="geometry" />
+          <mxGeometry x="335" y="260" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-18" target="4JPxv0iZ1SHB-yEqh3QH-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-18" value="create_kernel_mapping&lt;div&gt;创建内核镜像页表映射&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="360" width="150" height="40" as="geometry" />
+          <mxGeometry x="335" y="330" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-21" target="4JPxv0iZ1SHB-yEqh3QH-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="425" y="500" />
-              <mxPoint x="425" y="500" />
+              <mxPoint x="410" y="470" />
+              <mxPoint x="410" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-21" value="__relocate-kernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="420" width="150" height="40" as="geometry" />
+        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-21" value="__relocate-kernel&lt;div&gt;若配置KASLR，需要重定位内核&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="399.5" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-22" target="4JPxv0iZ1SHB-yEqh3QH-25">
           <mxGeometry relative="1" as="geometry" />
@@ -343,27 +326,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-22" value="__primary_switched&lt;div&gt;从该函数开始切换到内核地址空间的虚拟地址执行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="500" width="200" height="60" as="geometry" />
+          <mxGeometry x="310" y="470" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-25" value="start_kernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" target="4JPxv0iZ1SHB-yEqh3QH-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="279.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-30" value="&lt;div&gt;__HEAD&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;efi_signature_nop&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;b&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;primary_entry&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;_kernel_size_le&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;_kernel_flags_le&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.ascii&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;ARM64_IMAGE_MAGIC&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.long&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;.Lpe_header_offset&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="279.5" width="220" height="160" as="geometry" />
+          <mxGeometry x="560" y="290" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-36" target="4JPxv0iZ1SHB-yEqh3QH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4JPxv0iZ1SHB-yEqh3QH-36" value="primary_entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="140" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="190" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-40" value="Linux内核Image头部" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="439.5" width="120" height="30" as="geometry" />
+        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-40" value="Linux内核入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;__HEAD&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;efi_signature_nop&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;b&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;primary_entry&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;_kernel_size_le&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;_kernel_flags_le&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.ascii&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;ARM64_IMAGE_MAGIC&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.long&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.Lpe_header_offset&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="653" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="4JPxv0iZ1SHB-yEqh3QH-42" target="4JPxv0iZ1SHB-yEqh3QH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4JPxv0iZ1SHB-yEqh3QH-42" value="&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;__HEAD&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;efi_signature_nop&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;b&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;primary_entry&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;_kernel_size_le&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;le64sym&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;_kernel_flags_le&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.quad&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;0&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.ascii&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;ARM64_IMAGE_MAGIC&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.long&lt;span style=&quot;white-space: pre;&quot; class=&quot;Apple-tab-span&quot;&gt;&#x9;&lt;/span&gt;.Lpe_header_offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="270" width="210" height="159.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
