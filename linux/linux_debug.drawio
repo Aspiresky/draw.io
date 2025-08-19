@@ -10,8 +10,8 @@
         <mxCell id="TQtAe7RpQK7zls-bQ8zk-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="200" width="20" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="TQtAe7RpQK7zls-bQ8zk-8" value="trace.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="305" width="60" height="30" as="geometry" />
+        <mxCell id="TQtAe7RpQK7zls-bQ8zk-8" value="my_trace.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="305" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
