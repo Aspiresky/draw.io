@@ -1403,6 +1403,95 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="GuFBmJQQq1BHMI0NrTHY-1" target="GuFBmJQQq1BHMI0NrTHY-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="290" />
+              <mxPoint x="90" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-15" value="VFIO_DEVICE_SET_IRQS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-9">
+          <mxGeometry x="0.5112" y="-6" relative="1" as="geometry">
+            <mxPoint x="6" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-1" value="eventfd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GuFBmJQQq1BHMI0NrTHY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="120" as="sourcePoint" />
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-3" value="应用进程调用select/poll/epoll&lt;div&gt;监听eventfd事件&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-2">
+          <mxGeometry x="0.1079" y="-7" relative="1" as="geometry">
+            <mxPoint x="7" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GuFBmJQQq1BHMI0NrTHY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="235" as="sourcePoint" />
+            <mxPoint x="120" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-5" value="eventfd()创建fd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-4">
+          <mxGeometry x="-0.181" y="-2" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="320" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="GuFBmJQQq1BHMI0NrTHY-7" target="GuFBmJQQq1BHMI0NrTHY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-16" value="关联eventfd与中断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-10">
+          <mxGeometry x="-0.0604" y="-2" relative="1" as="geometry">
+            <mxPoint x="38" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-7" value="vfio-pci驱动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GuFBmJQQq1BHMI0NrTHY-8" target="GuFBmJQQq1BHMI0NrTHY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-12" value="唤醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-11">
+          <mxGeometry x="-0.1476" relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-8" value="eventfd_ctx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="446" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-13" value="用户态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-14" value="内核态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=1;endSize=8;startSize=8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="GuFBmJQQq1BHMI0NrTHY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="630" as="sourcePoint" />
+            <mxPoint x="180" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-18" value="eventfd_signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="GuFBmJQQq1BHMI0NrTHY-17">
+          <mxGeometry x="-0.0829" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuFBmJQQq1BHMI0NrTHY-19" value="PCIe硬件中断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="628" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
