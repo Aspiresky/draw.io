@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0niZXCLiJs4oaTSpizfn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="虚拟文件系统" vertex="1">
+          <mxGeometry height="40" width="340" x="80" y="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
