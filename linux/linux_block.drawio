@@ -234,8 +234,8 @@
         <mxCell id="0CMMlVYb9hzPKDFT5sxo-1" parent="1" style="text;whiteSpace=wrap;" value="struct blk_mq_tag_set {&#xa;    const struct blk_mq_ops    *ops;&#xa;    struct blk_mq_queue_map    map[HCTX_MAX_TYPES];&#xa;    unsigned int        nr_maps;&#xa;    unsigned int        nr_hw_queues;&#xa;    unsigned int        queue_depth;&#xa;    unsigned int        reserved_tags;&#xa;    unsigned int        cmd_size;&#xa;    int            numa_node;&#xa;    unsigned int        timeout;&#xa;    unsigned int        flags;&#xa;    void            *driver_data;&#xa;&#xa;&#xa;    struct blk_mq_tags    **tags;&#xa;&#xa;&#xa;    struct blk_mq_tags    *shared_tags;&#xa;&#xa;&#xa;    struct mutex        tag_list_lock;&#xa;    struct list_head    tag_list;&#xa;    struct srcu_struct    *srcu;&#xa;}" vertex="1">
           <mxGeometry height="370" width="350" as="geometry" />
         </mxCell>
-        <mxCell id="0CMMlVYb9hzPKDFT5sxo-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="struct request_queue" vertex="1">
-          <mxGeometry height="60" width="260" x="35" y="450" as="geometry" />
+        <mxCell id="0CMMlVYb9hzPKDFT5sxo-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;absoluteArcSize=1;" value="struct request_queue" vertex="1">
+          <mxGeometry height="280" width="250" x="40" y="480" as="geometry" />
         </mxCell>
         <mxCell id="0CMMlVYb9hzPKDFT5sxo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="struct elevator_queue *elevator" vertex="1">
           <mxGeometry height="30" width="230" x="50" y="540" as="geometry" />
