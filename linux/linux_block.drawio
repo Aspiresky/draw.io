@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.4" pages="11">
   <diagram id="_6XIpr2Hnhcvw3oNdjZx" name="块设备子系统">
     <mxGraphModel dx="1211" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wgkHDhuPDcfYh3Y7Rf2u" name="blk_mq">
-    <mxGraphModel dx="1389" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,6 +285,9 @@
         <mxCell id="LCsa-GFmP0mbRuu1gYGv-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_request_bypass_insert" vertex="1">
           <mxGeometry height="40" width="200" x="960" y="160" as="geometry" />
         </mxCell>
+        <mxCell id="a5qYk5UzvrHufENyYp6L-2" edge="1" parent="1" source="LCsa-GFmP0mbRuu1gYGv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="a5qYk5UzvrHufENyYp6L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LCsa-GFmP0mbRuu1gYGv-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="elvator-&amp;gt;type-&amp;gt;ops.insert_requests" vertex="1">
           <mxGeometry height="40" width="200" x="960" y="240" as="geometry" />
         </mxCell>
@@ -296,6 +299,9 @@
         </mxCell>
         <mxCell id="LCsa-GFmP0mbRuu1gYGv-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="submit_bio是块层提交IO的入口，进入的IO最终都会调用块设备驱动的下发接口，完成IO下发到实际的物理设备。在此之前，bio请求可能会经过蓄流/泄流、IO调度、DM映射等处理，或者更直接，直接递交到块设备驱动下发。" vertex="1">
           <mxGeometry height="50" width="490" x="510" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a5qYk5UzvrHufENyYp6L-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="elvator-&amp;gt;type-&amp;gt;ops.dispatch_queues" vertex="1">
+          <mxGeometry height="40" width="200" x="1310" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
