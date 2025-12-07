@@ -307,7 +307,7 @@
           <mxGeometry height="30" width="120" x="1160" y="410" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_submit_bio" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="630" as="geometry" />
+          <mxGeometry height="40" width="160" x="640" y="650" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_add_rq_to_plug" vertex="1">
           <mxGeometry height="40" width="160" x="827" y="735" as="geometry" />
