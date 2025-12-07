@@ -381,7 +381,7 @@
           <mxGeometry height="40" width="220" x="1065" y="1015" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="添加到软件分发队列" vertex="1">
-          <mxGeometry height="40" width="170" x="850" y="1110" as="geometry" />
+          <mxGeometry height="40" width="170" x="850" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_add_rq_to_plug" vertex="1">
           <mxGeometry height="40" width="160" x="827" y="735" as="geometry" />
