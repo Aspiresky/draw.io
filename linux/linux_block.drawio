@@ -313,7 +313,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_run_hw_queue" vertex="1">
-          <mxGeometry height="40" width="160" x="640" y="1280" as="geometry" />
+          <mxGeometry height="40" width="160" x="1360" y="695" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-41" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-32">
           <mxGeometry relative="1" as="geometry" />
@@ -396,16 +396,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_sched_dispatch_requests" vertex="1">
-          <mxGeometry height="40" width="190" x="720" y="1350" as="geometry" />
+          <mxGeometry height="40" width="190" x="1440" y="765" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="分发硬件队列中的IO请求" vertex="1">
-          <mxGeometry height="40" width="160" x="800" y="1420" as="geometry" />
+          <mxGeometry height="40" width="160" x="1520" y="835" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_do_dispatch_sched&lt;div&gt;分发电梯队列中的IO请求&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="800" y="1490" as="geometry" />
+          <mxGeometry height="40" width="160" x="1520" y="905" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_do_dispatch_ctx&lt;div&gt;分发软件队列中的IO请求&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="800" y="1560" as="geometry" />
+          <mxGeometry height="40" width="160" x="1520" y="975" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
