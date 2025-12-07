@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wgkHDhuPDcfYh3Y7Rf2u" name="blk_mq">
-    <mxGraphModel dx="992" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1308" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,7 @@
         <mxCell id="a5qYk5UzvrHufENyYp6L-17" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a5qYk5UzvrHufENyYp6L-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_try_issue_directly&lt;div&gt;尝试不经过调度直接下发到设备驱动&lt;/div&gt;" vertex="1">
+        <mxCell id="a5qYk5UzvrHufENyYp6L-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_try_issue_directly&lt;div&gt;尝试不经过调度直接下发到设备驱动（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;q-&amp;gt;mq_ops-&amp;gt;queue_rq&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="210" x="860" y="855" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-21" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-20">
