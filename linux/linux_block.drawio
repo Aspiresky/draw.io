@@ -354,7 +354,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="blk_rq_is_passthrough/&lt;div&gt;REQ_OP_FLUSH&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="170" x="850" y="915" as="geometry" />
+          <mxGeometry height="80" width="170" x="850" y="900" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-23" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-22">
           <mxGeometry relative="1" as="geometry" />
