@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wgkHDhuPDcfYh3Y7Rf2u" name="blk_mq">
-    <mxGraphModel dx="1308" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1429" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,6 +315,9 @@
         <mxCell id="a5qYk5UzvrHufENyYp6L-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_run_hw_queue" vertex="1">
           <mxGeometry height="40" width="160" x="640" y="1280" as="geometry" />
         </mxCell>
+        <mxCell id="a5qYk5UzvrHufENyYp6L-41" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Plug?" vertex="1">
           <mxGeometry height="50" width="100" x="670" y="730" as="geometry" />
         </mxCell>
@@ -380,8 +383,8 @@
         <mxCell id="a5qYk5UzvrHufENyYp6L-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="添加到软件分发队列" vertex="1">
           <mxGeometry height="40" width="170" x="850" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="a5qYk5UzvrHufENyYp6L-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_submit_bio" vertex="1">
-          <mxGeometry height="40" width="160" x="890" y="750" as="geometry" />
+        <mxCell id="a5qYk5UzvrHufENyYp6L-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_add_rq_to_plug" vertex="1">
+          <mxGeometry height="40" width="160" x="827" y="735" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-36" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-35">
           <mxGeometry relative="1" as="geometry" />
