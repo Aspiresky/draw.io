@@ -361,11 +361,17 @@
         <mxCell id="a5qYk5UzvrHufENyYp6L-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_run_hw_queue" vertex="1">
           <mxGeometry height="40" width="160" x="640" y="1200" as="geometry" />
         </mxCell>
+        <mxCell id="a5qYk5UzvrHufENyYp6L-25" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="blk_rq_is_passthrough/&lt;div&gt;REQ_OP_FLUSH&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="170" x="890" y="1050" as="geometry" />
+          <mxGeometry height="60" width="170" x="890" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-23" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="a5qYk5UzvrHufENyYp6L-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5qYk5UzvrHufENyYp6L-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_mq_request_bypass_insert" vertex="1">
+          <mxGeometry height="40" width="180" x="1130" y="1050" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
