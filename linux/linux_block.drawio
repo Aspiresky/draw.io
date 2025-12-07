@@ -310,9 +310,9 @@
           <mxGeometry height="40" width="160" x="640" y="630" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="blk_add_rq_to_plug" vertex="1">
-          <mxGeometry height="40" width="160" x="860" y="715" as="geometry" />
+          <mxGeometry height="40" width="160" x="870" y="745" as="geometry" />
         </mxCell>
-        <mxCell id="a5qYk5UzvrHufENyYp6L-8" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="a5qYk5UzvrHufENyYp6L-5">
+        <mxCell id="a5qYk5UzvrHufENyYp6L-8" edge="1" parent="1" source="a5qYk5UzvrHufENyYp6L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="a5qYk5UzvrHufENyYp6L-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a5qYk5UzvrHufENyYp6L-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Plug?" vertex="1">
